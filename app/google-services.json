@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "44692365393",
+    "firebase_url": "https://click-to-eat-3432d-default-rtdb.firebaseio.com",
+    "project_id": "click-to-eat-3432d",
+    "storage_bucket": "click-to-eat-3432d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44692365393:android:9c6a7e0d9e6d901ea35870",
+        "android_client_info": {
+          "package_name": "com.clickandeat.finalproject4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44692365393-9sel0bqqvp29dfu2d51b4l7h4uplpv1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzvXoYYboImO0aS9yrMei1bna2AvZhApU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44692365393-9sel0bqqvp29dfu2d51b4l7h4uplpv1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44692365393:android:2d98af572fcdcc26a35870",
+        "android_client_info": {
+          "package_name": "com.clickandeat.finalproject5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44692365393-9sel0bqqvp29dfu2d51b4l7h4uplpv1d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzvXoYYboImO0aS9yrMei1bna2AvZhApU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44692365393-9sel0bqqvp29dfu2d51b4l7h4uplpv1d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

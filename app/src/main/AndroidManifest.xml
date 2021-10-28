@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.clickandeat.finalproject5">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject5"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".OrderActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Users"
+            android:exported="true" />
+        <activity
+            android:name=".searchFirebase"
+            android:exported="true" />
+        <activity
+            android:name=".viewAllActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Settings.newFeedback"
+            android:exported="true" />
+        <activity
+            android:name=".Settings.Favorite"
+            android:exported="true" />
+        <activity
+            android:name=".finalPageYarka"
+            android:exported="true" />
+        <activity
+            android:name=".finalPageDalia"
+            android:exported="true" />
+        <activity
+            android:name=".Settings.locationOn"
+            android:exported="true" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".restaurantList"
+            android:exported="true" />
+        <activity
+            android:name=".menuForHome"
+            android:exported="true" />
+        <activity
+            android:name=".itemInCart"
+            android:exported="true" />
+        <activity
+            android:name=".daliaHome"
+            android:exported="true" />
+        <activity
+            android:name=".Cart"
+            android:exported="true" />
+        <activity
+            android:name=".Settings.changePassword"
+            android:exported="true" />
+        <activity
+            android:name=".Settings.Support"
+            android:exported="true" />
+        <activity
+            android:name=".Settings.Account"
+            android:exported="true" />
+        <activity
+            android:name=".Settings.settingsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Location"
+            android:exported="true" />
+        <activity
+            android:name=".foodDetails"
+            android:exported="true" />
+        <activity
+            android:name=".yarkaHome"
+            android:exported="true" />
+        <activity
+            android:name=".forgetPass"
+            android:exported="true" />
+        <activity
+            android:name=".Register"
+            android:exported="true" />
+        <activity
+            android:name=".signIn"
+            android:exported="true" />
+        <activity
+            android:name=".mainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

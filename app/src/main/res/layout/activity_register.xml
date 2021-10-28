@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:id="@+id/username"
+        android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+        android:layout_width="399dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10pt"
+        android:hint="User Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:inputType="phone"
+        android:id="@+id/userphone"
+        android:layout_width="399dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10pt"
+        android:drawableLeft="@drawable/ic_baseline_phone_24"
+        android:hint="phone"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/useremail"
+        android:layout_width="399dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10pt"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:hint="Email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/password"
+        android:drawableLeft="@drawable/ic_baseline_key_24"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="10pt"
+        android:layout_marginRight="4pt"
+        android:hint="Password"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="4pt"
+        android:layout_marginTop="10pt"
+        android:layout_marginRight="4pt"
+        android:backgroundTint="#000"
+        android:gravity="center"
+        android:text="sign up"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
